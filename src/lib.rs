@@ -98,7 +98,9 @@ impl Universe {
 		}
 	}
 
-	
+	pub fn render(&self) -> String {
+		self.to_string()
+	}
 }
 
 use std::fmt;
