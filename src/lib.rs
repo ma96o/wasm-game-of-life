@@ -114,6 +114,6 @@ impl fmt::Display for Universe {
 			}
 			write!(f, "\n")?;
 		}
-		ok(())
+		Ok(())
 	}
 }
