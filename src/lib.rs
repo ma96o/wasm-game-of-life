@@ -107,7 +107,7 @@ impl Universe {
 	}
 
 	pub fn height(&self) -> u32 {
-		self.heignt
+		self.height
 	}
 
 	pub fn cells(&self) -> *const Cell {
