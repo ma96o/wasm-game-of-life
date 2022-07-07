@@ -11,3 +11,6 @@ wasm_bindgen_test_configure!(run_in_browser);
 fn pass() {
     assert_eq!(1 + 1, 2);
 }
+
+extern crate wasm_game_of_life;
+use wasm_game_of_life::Universe;
