@@ -79,6 +79,7 @@ impl Universe {
 	}
 
 	pub fn new() -> Universe {
+		utils::set_panic_hook();
 		let width = 64;
 		let height = 64;
 
